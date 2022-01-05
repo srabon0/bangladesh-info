@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-color:#E5E8E8;
+}
+.heading{
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.main{
+    display: flex;
+    margin: 0 5%;
+}
+
+.bangladesh-details{
+    width: 50%;
+
+}
+.bangladesh-image{
+    width: 50%;
+}
+.bangladesh-details p{
+    font-size: 15;
+    text-align: justify;
+    border: 2px solid lightgreen;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    padding: 15px;
+    color: black;
+    margin-bottom:20px;
+    border: 2px solid red;
+    background-image: linear-gradient(45,orange ,red);
+}
+.div-sec{
+    display: flex;
+    align-content: space-around;
+}
+.city{
+    width:70%;
+    height: 350px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 10px 30px; 
+}
+.division-image{
+    height: 200px;
+}
+.division-image img{
+    width: 100%;
+    height: 100%;
+}
+.division-details{
+    padding: 5px;
+}
+.div-head{
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.btn{
+    height: 30px;
+    width:100px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid green;
+    color:white;
+    padding:5px;
+
+}
+.btn:hover {
+background-color: ghostwhite;
+border: 1px solid black ;
+color:black;
+}
+
+#dac{
+    color:goldenrod;
+}
+#raj{
+    color:indigo;
+}
+#ctg{
+    color:firebrick;
+}
+.foot{
+    margin-top: 100px;
+    text-align: center;
+    color:firebrick
+}
