@@ -48,7 +48,8 @@ body{
     height: 350px;
     border:1px solid black;
     border-radius: 5px;
-    margin: 10px 30px; 
+    margin: 10px 30px;
+    box-shadow: 10px 10px 10px gray; 
 }
 .division-image{
     height: 200px;
@@ -76,6 +77,7 @@ body{
     border: 1px solid green;
     color:white;
     padding:5px;
+    margin-top:20px;
 
 }
 .btn:hover {
